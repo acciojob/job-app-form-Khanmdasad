@@ -24,12 +24,15 @@
 
 		<div>
 	        <label name="gender" class="required-label" for="gender">Gender</label>
-	        <input type="radio" name="male" id="gander">Male
-	        <input type="radio" name="male" id="gander">Female
+	        <input type="radio" id="male" name="gender" value="male" required>
+			<label for="male">Male</label>
+	        <input type="radio" id="female" name="gender" value="female" required>
+			<label for="female">Female</label>
 		</div>    
         
 
 		<div>
+		  <label class="required-label" for="laptop">Laptop Brands:</label>
 			<select name="laptop" id="laptop">
 	            <option value="Apple">Laptop</option>
 	            <option value="Apple">Apple</option>
